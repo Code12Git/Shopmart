@@ -1,0 +1,81 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left__container{
+    display: flex;
+    flex-direction: column;
+}
+.item__btn{
+    display: flex;
+    
+    gap:2rem;
+}
+.item__image{
+    height: 400px;
+    width: 300px;
+}
+.container__right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.discount__item{
+    display: flex;
+    gap:1rem;
+}
+.mrp__item{
+    display: flex;
+    gap:1rem;
+}
+.icon__item{
+    display: flex;
+    flex-direction: row;
+    
+}
+.shipping{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 240, 245);
+    border-radius: 10px;   
+    align-items: center;
+    text-align: center;
+}
+.replacement{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 240, 245);
+    border-radius: 10px;  
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    
+}
+.delivery{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 240, 245);
+    border-radius: 10px; 
+    align-items: center;
+    text-align: center;
+}
+.install{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 240, 245);
+    border-radius: 10px; 
+    align-items: center;
+    text-align: center;
+}
+.warranty{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 240, 245);
+    border-radius: 10px; 
+    align-items: center;
+    text-align: center;
+}
+.btn{
+    border-radius: 20px;
+}

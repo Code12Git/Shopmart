@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(88, 152, 207);
+    padding: 10px;
+}
+.header__input{
+    border-radius: 10px;
+    flex: 0.6;
+}
+*{
+    margin: 0px;
+}
+.header__right{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.header__btn{
+    padding: 1px;
+    border-radius: 10px;
+    width: 100px;
+}
+.btnm{
+    border: none;
+background: none;
+color: wheat;
+}
+.header__search{
+    display: flex;
+    flex:0.6 ;
+    align-items: center;
+    border-radius:24px;
+    
+}
+.header__searchbar{
+    height: 12px;
+    padding: 15px;
+    border:none;
+    width:100%;
+    border-radius: 5px;
+}
+.header__searchIcon{
+    padding: 5px;
+    height: 30px !important;
+    background-color: #d6a76a;
+
+}
+.header__cart{
+    display: flex;
+}
+.header__login{
+    text-decoration: none;
+    outline: none;
+    font-family: 'poppins',sans-serif;
+    color: aliceblue;
+}
+.header__login:hover{
+    color: blanchedalmond;
+}
+
+.badge{
+    background-color: #d4bb9b;
+    border-radius: 40px;
+}
+@media only screen and (max-width: 700px) {
+    .header{
+        width: 105vw;
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        width: 160vw;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .header{
+        width: 120vw;
+        
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .header{
+        width: 110vw;
+        
+    }
+}
+.login__username{
+    color: rgb(19, 19, 18);
+}
+.hello{
+    color: rgb(57, 48, 37);
+}
+
+.logout{
+    display: flex;
+    flex-direction: column;
+
+}

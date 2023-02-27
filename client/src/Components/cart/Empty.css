@@ -1,0 +1,24 @@
+.empty__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.empty__container{
+    width: 80vw;
+    background-color: whitesmoke;
+    height: 50vh;
+    margin: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.empty__btn{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-left: 500px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
