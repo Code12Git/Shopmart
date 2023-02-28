@@ -1,5 +1,5 @@
 import User from "../model/user.js";
-
+const BASE_URL=process.env.BASE_URL;
 export const usersignup=async(req,res)=>{
     
     try{
