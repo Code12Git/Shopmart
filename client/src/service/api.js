@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = '';
+const url = 'https://shopmart.onrender.com';
 
 export const authenticateLogin = async (user) => {
     try {
